@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+<title>Forms</title>
+</head>
+
+<body>
+	<div class="wrapper">
+    	<div class="header">
+        	<h1 class="main-text">Contact Manager</h1>
+            <ul class="menu">
+     
+    			<li><a href=#>More Actions ▼</a>
+        			<ul class="submenu">
+            			<li><a href=#>Action 1</a></li>
+            			<li><a href=#>Action 2</a></li>
+            			<li><a href=#>Action 3</a></li>
+        			</ul>
+    			</li>
+			</ul>
+        </div>
+        <form action="SomePage.aspx" method="get" target="_blank">
+        <div class="main">
+        	<div class="form">
+            	   <p>First Name <span class="red">*</span></p>
+        			<input  type="text" name="First name" value="" placeholder="Please type your first name" />
+        			
+            </div>
+          <div class="form">
+            		<p>Last Name <span class="red">*</span></p>
+        			<input type="text" name="Last name" value="" placeholder="Please type your last name" />
+    			</div>
+            
+          <div class="form">
+        			Address
+        				<textarea  name="textarea" ></textarea>
+    			</div>
+            
+          <div class="form">
+        			City 
+        			<input type="text" name="City" value="" placeholder="Please enter your City" />
+            </div>
+            
+          <div class="form">
+        		State
+                <select  name="select" name="Select" >
+                        <option "disabled">-Select-</option>
+                        <option value="film002">Alabama</option>
+                        <option value="film003">Arisona</option>
+                        <option value="film004">Alaska</option>
+                        <option value="film005">Arkansas</option>
+                        <option value="film006">California</option>
+                    	<option value="film004">Colorado</option>
+                        <option value="film005">Connecticut</option>
+                        <option value="film006">Delaware</option>
+                </select>
+    		</div>
+          <div class="form">
+        			Zip
+        			<input  type="text" name="Zip" value="" placeholder="Enter your Zip" />
+        			
+            </div>
+          <div class="form-s">
+        			Home Phone 
+        			<input class="short" type="text" name="Home Phone" value="" placeholder="Enter your Number" />
+        			</div>
+            <div class="form">
+           	  <p>Work Phone <span class="red">*</span></p>
+        			<input  type="text" name="Work Phone" value="" placeholder="Please type number" />
+        			</div>
+                    
+            
+            <div class="form-s">
+            		Fax Number 
+        			<input class="short"  type="text" name="First name" value="" placeholder="Enter number if You have it" />
+        			
+            </div>
+            
+             <div class="form">
+           	  <p>Website </p>
+        			<div class="colomn">
+                    	<div>
+                    		<p>URL</p><input  type="text" name="URL" value=""  />
+                        </div>
+                        
+                    	<div>
+                        	<p>Link Name</p><input  type="text" name="Link Name" value=""  />
+                        </div>
+                     </div>
+        	</div>
+            
+            <div class="form">
+           	  <p>Email Address <span class="red">*</span></p>
+        			<input  type="text" name="Email Address" value=""  />
+        	</div>
+                    
+                   
+            <div class="form-w">
+            		When is the best time to contact You?
+                        <div class="colomn">
+        			 		<div >
+                            	<input name="time" type="radio" value="Morning">
+                                <p class="check">Morning</p>
+                                </div>
+    						<div >
+                            	<input name="time" type="radio" value="Afternoon">
+                                <p class="check">Afternoon</p>
+                                </div>
+    						<div>
+                            	<input name="time" type="radio" value="Evening" checked>
+                                <p class="check">Evening</p>
+                                </div>
+                          </div>
+    			
+            </div>
+            <div class="form-w">
+            		When is the best way to contact You?
+                    	<div class="colomn">
+        			 		<div >
+                            	<input name="way" type="radio" value="Phone">
+                                <p class="check">Phone</p>
+                            </div>
+    						<div>
+                            	<input name="way" type="radio" value="Email">
+                                <p class="check">Email</p>
+                            </div>
+    						<div>
+                            	<input name="way" type="radio" value="Fax" checked>
+                                <p class="check">Fax</p>
+                            </div>
+                         </div>
+    			</div>
+            <div class="form-w">
+        			Message
+        				<textarea  name="textarea" ></textarea>
+    			
+            </div>
+        
+        </div>
+    	<div class="footer">
+   				<p align="center"><button class="knopka" type="submit">Submit</button>
+   				<button class="knopka" type="reset">Reset</button> 
+   				</p>
+                
+        
+        </div>
+      </form>
+    </div>
+
+</body>
+</html>
