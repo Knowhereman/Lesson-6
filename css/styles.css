@@ -142,10 +142,10 @@ form textarea {
 		margin-left:10px;
 		color:#000000;
 		margin-top:7px;
-		margin-left:25px;
+		margin-left:45px;
 		padding:6px;
 		display:flex;
-		width:420px;
+		width:430px;
 		justify-content:space-between;
 }
 .form-s {
