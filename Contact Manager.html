@@ -25,6 +25,7 @@
         </div>
         <form action="SomePage.aspx" method="get" target="_blank">
         <div class="main">
+        <div class="stick">
         	<div class="form">
             	   <p>First Name <span class="red">*</span></p>
         			<input  type="text" name="First name" value="" placeholder="Please type your first name" />
@@ -97,11 +98,11 @@
            	  <p>Email Address <span class="red">*</span></p>
         			<input  type="text" name="Email Address" value=""  />
         	</div>
-                    
-                   
+             </div>       
+            <div class="stick">      
             <div class="form-w">
             		When is the best time to contact You?
-                        <div class="colomn">
+                        <div class="colomn-w">
         			 		<div >
                             	<input name="time" type="radio" value="Morning">
                                 <p class="check">Morning</p>
@@ -118,8 +119,8 @@
     			
             </div>
             <div class="form-w">
-            		When is the best way to contact You?
-                    	<div class="colomn">
+            		<p >When is the best way to contact You?</p>
+                    	<div class="colomn-w">
         			 		<div >
                             	<input name="way" type="radio" value="Phone">
                                 <p class="check">Phone</p>
@@ -141,11 +142,13 @@
             </div>
         
         </div>
+        </div>    
     	<div class="footer">
    				<p align="center"><button class="knopka" type="submit">Submit</button>
    				<button class="knopka" type="reset">Reset</button> 
    				</p>
-                
+          </div>
+            
         
         </div>
       </form>

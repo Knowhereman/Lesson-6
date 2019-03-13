@@ -104,9 +104,12 @@ ul.menu > li:hover > ul.submenu {
 }
 .main {
 		display: flex;
+}
+		
+.stick {
+		display: flex;
 		flex-direction:column;
 		flex-wrap: wrap;
-		height:600px;
 		padding-top:15px;
 }
 .form {
@@ -139,10 +142,11 @@ form textarea {
 		margin-left:10px;
 		color:#000000;
 		margin-top:7px;
+		margin-left:25px;
 		padding:6px;
 		display:flex;
+		width:420px;
 		justify-content:space-between;
-		width:400px;
 }
 .form-s {
 		font-family: American TextC;
@@ -194,11 +198,27 @@ select option {
 		display:flex;
 		flex-direction:column;
 }
+.colomn-w {
+		display:flex;
+		flex-direction:column;
+}
 .colomn > div {
 		display:flex;
 		margin:4px;
-		justify-content:flex-end;
+		justify-content:flex-start;
+		width:210px;
 }
+
 .colomn input {
 		width:150px;
+}
+.colomn-w > div {
+		display:flex;
+		margin:4px;
+		justify-content:flex-start;
+		width:210px;
+}
+
+.colomn-w input {
+		width:30px;
 }
