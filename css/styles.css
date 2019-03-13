@@ -204,13 +204,13 @@ select option {
 }
 .colomn > div {
 		display:flex;
+		justify-content: space-between;
 		margin:4px;
-		justify-content:flex-start;
-		width:210px;
+		width:220px;
 }
 
 .colomn input {
-		width:150px;
+		width:140px;
 }
 .colomn-w > div {
 		display:flex;
